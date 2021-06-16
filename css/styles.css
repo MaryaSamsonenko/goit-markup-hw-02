@@ -10,3 +10,186 @@
   clip-path: inset(50%);
   margin: -1px;
 }
+
+:root {
+  --primery-font: 'Roboto', sans-serif;
+  --secondary-font: 'Raleway', sans-serif;
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --hero-text-color: #ffffff;
+  --hero-background-color: #2f303a;
+  --team-background-color: #f5f4fa;
+}
+.logo-up {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: #000000;
+}
+.logo:focus {
+  color: var(--accent-color);
+}
+.logo-accent {
+  color: var(--accent-color);
+}
+
+button {
+  font-family: inherit;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+body {
+  font-family: var(--primery-font);
+  font-style: normal;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
+.list {
+  list-style: none;
+}
+.site-nav,
+.address-nav {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.site-nav .link {
+  color: var(--title-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus,
+.address-nav .link:hover,
+.address-nav .link:focus {
+  color: var(--accent-color);
+}
+.address-nav .link {
+  color: var(--primary-text-color);
+}
+.slogan {
+  font-weight: 900;
+  text-align: center;
+  font-size: 44px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  color: var(--hero-text-color);
+  background-color: var(--hero-background-color);
+}
+.modal-button {
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  color: var(--hero-text-color);
+  background-color: #2196f3;
+}
+.subtitle {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+}
+.egle-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--title-text-color);
+}
+.egle-desc {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
+.team-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+}
+.team-profession {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
+
+}
+.down {
+  background-color: var(--hero-background-color);
+}
+.down-logo {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--hero-text-color);
+  background-color: var(--hero-background-color);
+}
+.down-address {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--hero-text-color);
+  background-color: var(--hero-background-color);
+}
+
+.down-contact .link {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  background-color: var(--hero-background-color)
+}
+.down-contact .link:hover,
+.down-contact .link:focus{
+  color: var(--accent-color);
+}
+.btn-menu {
+  cursor: pointer;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+
+}
+.btn-menu:hover,
+.btn-menu:focus {
+  color: var(--hero-text-color);
+  background-color: var(--accent-color);
+}
+.projects-title{
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--title-text-color);
+}
+
+.projects-desc {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
