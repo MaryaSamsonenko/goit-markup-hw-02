@@ -65,10 +65,12 @@ body {
 }
 .site-nav .link:hover,
 .site-nav .link:focus,
+.site-nav .current,
 .address-nav .link:hover,
 .address-nav .link:focus {
   color: var(--accent-color);
 }
+
 .address-nav .link {
   color: var(--primary-text-color);
 }
@@ -106,7 +108,7 @@ body {
   color: var(--title-text-color);
 }
 .egle-desc {
-    font-size: 14px;
+  font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
@@ -119,13 +121,12 @@ body {
   color: var(--title-text-color);
 }
 .team-profession {
-   font-size: 16px;
+  font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
 }
 
-}
 .down {
   background-color: var(--hero-background-color);
 }
@@ -135,7 +136,6 @@ body {
   font-size: 26px;
   line-height: 1.19;
   color: var(--hero-text-color);
-  background-color: var(--hero-background-color);
 }
 .down-address {
   font-style: normal;
@@ -144,7 +144,6 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--hero-text-color);
-  background-color: var(--hero-background-color);
 }
 
 .down-contact .link {
@@ -153,10 +152,9 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
-  background-color: var(--hero-background-color)
 }
 .down-contact .link:hover,
-.down-contact .link:focus{
+.down-contact .link:focus {
   color: var(--accent-color);
 }
 .btn-menu {
@@ -168,14 +166,13 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--title-text-color);
-
 }
 .btn-menu:hover,
 .btn-menu:focus {
   color: var(--hero-text-color);
   background-color: var(--accent-color);
 }
-.projects-title{
+.projects-title {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
